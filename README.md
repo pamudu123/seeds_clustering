@@ -1,5 +1,5 @@
 # Seeds Dataset Clustering Analysis
-This is done as a part of my masters studies.
+This is done as a part of my master's studies.
 
 ## Introduction
 
@@ -23,7 +23,7 @@ The dataset comprises 210 samples, with 70 samples for each wheat variety.
 
 K-Means is a partitioning clustering algorithm that divides data into K distinct, **non-overlapping** clusters.
 
-![K-Means](resources\elbow_method.png)
+![K-Means](resources/elbow_method.png)
 
 ### Agglomerative Hierarchical Clustering
 
@@ -46,7 +46,7 @@ Hierarchical clustering builds a tree of clusters by progressively merging or sp
 
 ### Dendrogram Analysis
 
-![Dendrogram](resources\dendrogram.png)
+![Dendrogram](resources/dendrogram.png)
 
 A dendrogram is a tree-like diagram that records the sequences of merges in hierarchical clustering. It visualizes:
 
@@ -79,7 +79,6 @@ Since the Seeds dataset includes true labels, we can evaluate clustering as if i
 - Confusion Matrix
 
 -----
-![Dendrogram](resources\dendrogram.png)
-![ConfusionMatrix](resources\confusion_matrix.png)
-![Visualization_1](resources\visualization_1.png)
-![VisualizationBarplot](resources\visualization_barplot.png)
+![ConfusionMatrix](resources/confusion_matrix.png)
+![Visualization_1](resources/visualization_1.png)
+![VisualizationBarplot](resources/visualization_barplot.png)
