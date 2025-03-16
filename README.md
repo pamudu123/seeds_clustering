@@ -1,4 +1,5 @@
 # Seeds Dataset Clustering Analysis
+This is done as a part of my masters studies.
 
 ## Introduction
 
@@ -76,50 +77,9 @@ Since the Seeds dataset includes true labels, we can evaluate clustering as if i
 - Recall
 - F1 Score 
 - Confusion Matrix
-<!-- 
+
+-----
 ![Dendrogram](resources\dendrogram.png)
 ![ConfusionMatrix](resources\confusion_matrix.png)
 ![Visualization_1](resources\visualization_1.png)
-![VisualizationBarplot](resources\visualization_barplot.png) -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-        .column {
-            flex: 1 1 45%;
-            max-width: 45%;
-            margin: 5px;
-            box-sizing: border-box;
-            text-align: center;
-        }
-        .equal-size {
-            width: 300px; /* Set your desired width */
-            height: 200px; /* Set your desired height */
-            object-fit: contain; /* Maintains aspect ratio */
-            display: block;
-            margin: 0 auto;
-        }
-    </style>
-    <title>Two-Column Image Layout</title>
-</head>
-<body>
-    <div class="container">
-        <div class="column">
-            <img src="resources/dendrogram.png" alt="Dendrogram" class="equal-size">
-            <img src="resources/visualization_1.png" alt="Visualization 1" class="equal-size">
-        </div>
-        <div class="column">
-            <img src="resources/confusion_matrix.png" alt="Confusion Matrix" class="equal-size">
-            <img src="resources/visualization_barplot.png" alt="Visualization Barplot" class="equal-size">
-        </div>
-    </div>
-</body>
-</html>
+![VisualizationBarplot](resources\visualization_barplot.png)
