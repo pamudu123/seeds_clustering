@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.doc
+*.docx
+*.zip
+
+*.ipynb
+!clustering_notebook.ipynb
+
+*.pdf
+!code_explanation.pdf
